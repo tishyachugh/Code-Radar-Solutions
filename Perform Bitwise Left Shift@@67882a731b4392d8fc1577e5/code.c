@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int a,b,result;
-    scanf("%d %d",&a,&b);
-    result=a<<b;
+    int number,shift;
+    scanf("%d %d",&number,&shift);
+    result=number<<shift;
     print("%d",result);
     return 0;
 }
