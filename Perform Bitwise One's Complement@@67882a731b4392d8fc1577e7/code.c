@@ -4,5 +4,6 @@ int main(){
     scanf("%d",a);
     result= ~a;
     print("%d",result);
+    return 0;
     
 }
