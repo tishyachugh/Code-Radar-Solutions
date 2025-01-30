@@ -4,8 +4,8 @@ int main(){
     int a,n;
     scanf("%d",&a);
     scanf("%d",&n);
-    if(n&(1<<n-1))
-    printf("%d",a);
-    else
+    if(n&(1<<n))
     printf("%d",n);
+    else
+    printf("%d",a);
 }
