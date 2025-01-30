@@ -7,5 +7,5 @@ int main(){
     if(n&(1<<n-1))
     printf("%d",n);
     else
-    printf("%d",a);
+    printf("%d",n);
 }
