@@ -29,6 +29,6 @@ int main(){
         default:{
             printf("invalid");
         }
-        }
+        }}
         }
     }
