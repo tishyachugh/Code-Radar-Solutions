@@ -7,8 +7,6 @@ int main(){
     while((a&1)==0 &&   a !=0){
         a>>=1;
         count++;}
-        printf("%d\n",a);
+        printf("%d\n",count);
         return 0;
-    
-
     }
