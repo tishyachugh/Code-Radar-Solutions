@@ -26,9 +26,6 @@ int main(){
             printf("Sunday");
             break;
         }
-        default:{
-            printf("invalid");
-        }
         }}
         }
     }
