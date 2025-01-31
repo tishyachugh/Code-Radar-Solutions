@@ -5,10 +5,10 @@ int main(){
     count=0;
     scanf("%d",&a);
     
-    while((a&1)==0){
+    while((a&1)==0 && !=0){
         n=n>>1;
         count++;
-        printf("%d",a);
+        printf("%d",count);
         return 0;
     }
 
