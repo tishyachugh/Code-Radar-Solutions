@@ -10,6 +10,6 @@ int main(){
     else if(op == '*')
     printf("%d", a*b);
     else if(op == '/')
-    printf("%d", a/b);
+    printf("%d", a / b);
     return 0;
 }
