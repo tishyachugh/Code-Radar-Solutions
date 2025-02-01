@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
+    char a;
+    scanf("%c",&a);
    if (day==1)
    printf("Monday\n");
    else if(day==2)
