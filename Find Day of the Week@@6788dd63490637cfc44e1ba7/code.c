@@ -18,4 +18,4 @@ int main(){
    printf("Sunday");
    else
    printf(Invalid);
-   return 0;
+   return 0;}
