@@ -2,14 +2,14 @@
 int main(){
     int a,count;
     count=0;
-    scanf("%d",&x);
-    if(x==0){
+    scanf("%d",&a);
+    if(a==0){
         printf("32");
         return 0;
     }
-    while((x & (1<<31))==0){
+    while((a & (1<<31))==0){
         count++;
-        x=x<<1;
+        a=a<<1;
     }
     printf("%d",count);
     return 0;
