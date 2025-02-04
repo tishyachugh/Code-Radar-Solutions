@@ -12,6 +12,6 @@ int main(){
     else if(op == '/')
     printf("%d", a / b);
     else
-    printf(error);
+    printf("error");
     return 0;
 }
