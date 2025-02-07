@@ -7,7 +7,8 @@ int main(){
     if(isalpha(x)){
         if(x=='a'||x=='i'||x=='o'||x='e'||x='u'||x=='A'||x=='E'||x=='I'||x=='O'||x=='U'){
             printf("Vowel");
-        }else{
+        }
+        else{
             printf("Consonant");
         }}
         else if(isdigit(x)){
@@ -16,4 +17,5 @@ int main(){
         else{
             printf("Special Character");
         }
+        return 0;
 }
