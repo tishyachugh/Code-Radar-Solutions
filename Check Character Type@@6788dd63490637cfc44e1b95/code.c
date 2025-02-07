@@ -12,9 +12,9 @@ int main(){
         }}
     else if(isdigit(x)){
             printf("Digit");
-        }
+    }
         else{
             printf("Special Character");
-        }
+    }
         return 0;
 }
