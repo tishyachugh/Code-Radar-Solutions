@@ -4,9 +4,6 @@ int main(){
     int a,n;
     scanf("%d",&a);
     scanf("%d",&n);
-    if(n&(1<<n))
-    printf("%d",n);
-    else
-    printf("%d",0,1);
-    return 0;
-}
+    printf("%d",a>>n & 1);
+    return 0;}
+   
