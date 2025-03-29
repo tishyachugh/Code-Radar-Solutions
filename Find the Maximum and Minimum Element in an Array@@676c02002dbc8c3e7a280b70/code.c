@@ -25,7 +25,7 @@ int main() {
     int min, max;
     findMinMax(arr, n, &min, &max);
 
-    printf(" %d\n", min);
+    printf("%d\n", min);
     printf(" %d\n", max);
 
     return 0;
