@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 
 int isPrime(int num) {
@@ -9,6 +11,7 @@ int isPrime(int num) {
     }
     return 1;
 }
+
 
 int main() {
     int t;
