@@ -15,7 +15,7 @@ int main() {
     scanf("%d", &t);
     while (t--) {
         int t;
-        scanf("%d", &t;
+        scanf("%d", &t;)
         printf("%d\n", isPrime(t));
     }
     return 0;
