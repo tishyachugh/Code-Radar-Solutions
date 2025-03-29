@@ -17,13 +17,11 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
     scanf("%d", &target);
-
     int index = findIndex(arr, n, target);
 
     if (index != -1) {
-        printf("Element found at index: %d\n", index);
+        printf("%d\n", index);
     } else {
         printf("-1\n");
     }
