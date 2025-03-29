@@ -23,7 +23,7 @@ int main() {
     }
 
     if (isPalindrome(arr, n)) {
-        printf("YES"\n);
+        printf("YES\n");
     } else {
         printf("NO\n");
     }
