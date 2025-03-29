@@ -26,7 +26,7 @@ int main() {
     int peakIndex = findFirstPeak(arr, n);
 
     if (peakIndex != -1) {
-        printf("First Peak Element: %d at index %d\n", arr[peakIndex], peakIndex);
+        printf("%d\n", arr[peakIndex], peakIndex);
     } else {
         printf("No peak element found\n");
     }
