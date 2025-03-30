@@ -6,7 +6,7 @@ int main() {
 
     for (int i = 1; i <= n; i++) {  // Rows
         for (int j = 1; j <= i; j++) {  // Columns
-            printf("%d ", (i + j) % 2); // Alternating 1 and 0
+            printf("%d ", (i + j+1) % 2); // Alternating 1 and 0
         }
         printf("\n"); // Move to next line
     }
