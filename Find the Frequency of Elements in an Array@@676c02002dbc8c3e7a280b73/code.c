@@ -8,8 +8,8 @@ for(int i=0;i<size;i++){
     visited[i]=0;
 }
 for(int i=0;i<size;i++){
-    if(visited[i]=1);
-    continue;
+    if(visited[i]==1)
+       continue;
     int count=1;
     for(int j=i+1;j<size;j++){
         if(arr[i]==arr[j]){
