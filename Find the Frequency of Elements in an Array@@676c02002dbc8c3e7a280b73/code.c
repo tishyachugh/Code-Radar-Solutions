@@ -2,7 +2,7 @@
 int main(){
 int size;
 scanf("%d",&size);
-int arr[i], visited[i];
+int arr[size], visited[size];
 for(int i=0;i<size;i++){
     scanf("%d",arr[i])
     visited[i]=0;
